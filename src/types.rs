@@ -362,7 +362,7 @@ pub struct CratesPage {
     ///
     /// - For the latest version string, use `c.max_version` on the `Crate` struct directly.
     /// - For complete version history, fetch the crate explicitly via
-    /// `client.full_crate(name: ..., all_versions: true)`.
+    ///   `client.full_crate(name: ..., all_versions: true)`.
     pub versions: Vec<Version>,
     #[serde(default)]
     pub keywords: Vec<Keyword>,
